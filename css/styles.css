@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3.7rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* nav section */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-family: 'Montserrat-light';
+}
+
+.downlond-btn {
+    margin: 5% 10% 5% 0;
+}
+
+.nav-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+/* features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-item i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-item i:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/*Press*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+
+/* Footer and CTA */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+#cta h3 {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 70px;
+}
+
+#footer i {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+    .nav-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        padding-top: 1.5rem;
+    }
+}
